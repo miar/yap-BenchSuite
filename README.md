@@ -1,2 +1,3 @@
-An automated benchmark suite framework based in Jenkins/GitHub for Yap development.
+An automated benchmark suite framework based on Jenkins/GitHub for Yap development.
+
 ------> Under construction <------
