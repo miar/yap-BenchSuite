@@ -1,0 +1,9 @@
+Table structure for predicate 'a/0'
+  ?- a.
+    TRUE
+Table structure for predicate 'b/0'
+  ?- b.
+    TRUE
+Table structure for predicate 't/1'
+  ?- t(VAR0).
+    VAR0: 1

@@ -1,0 +1,1 @@
+./run_test_suite.sh -d tests_prolog/ -q run_config_files/query_debug_prolog_3_runs_0_threads.pl /home/miguel/Desktop/temp/yap-6.3/bin/yap
