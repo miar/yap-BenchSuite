@@ -61,5 +61,6 @@ int main() {
     printf("\n");
   }
   */    
+  printf("programa terminou\n");
   return 0;
 }
