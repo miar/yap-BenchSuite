@@ -225,4 +225,4 @@ done
 rm -f *.xwam
 rm -f mapfile*
 cd ${CURRENT_DIR}
-exit #${TESTS_FAILED}
+exit ${TESTS_FAILED}

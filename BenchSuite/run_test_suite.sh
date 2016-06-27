@@ -226,7 +226,6 @@ run_tests_dir_list "${DIR_LIST}"
 END_TIME=$(date "+%m-%d-%Y %T")
 show_summary >> "${REPORT_FILENAME}"
 show_summary
-
 exit ${TESTS_FAILED}
 
 
