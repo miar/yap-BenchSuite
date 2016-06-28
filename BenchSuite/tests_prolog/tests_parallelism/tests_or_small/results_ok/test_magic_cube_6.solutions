@@ -1,0 +1,7 @@
+[frn1,frn3,lat2,dir1,frn2,lat3]
+[frn1,lat2,dir1,frn2,lat1,lat3]
+[frn1,lat2,dir1,frn2,lat3,lat1]
+[frn3,frn1,lat2,dir1,frn2,lat3]
+[frn3,lat2,frn1,dir1,dir3,lat3]
+[frn3,lat2,frn1,dir1,lat3]
+[frn3,lat2,frn1,dir3,dir1,lat3]
