@@ -1,3 +1,17 @@
+# run benchs in the test suite ...
+
 ./run_test_suite.sh -d tests_prolog/ -q run_config_files/query_debug_prolog_3_runs_0_threads.pl /home/miguel/Desktop/temp/yap-6.3/bin/yap
 
+###### JENKINS #########
+# jenkins in the desktop machine...
 http://localhost:8080/
+
+###### LOGTALK #########
+
+# unit tests in logtalk
+# do the following command inside the directory fof the test
+yaplgt -g "true,logtalk_load(tester),halt"
+
+
+cd /home/miguel/Development/BenchEnviro
+logtalk_tester

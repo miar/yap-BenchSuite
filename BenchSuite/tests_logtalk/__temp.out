@@ -1,0 +1,48 @@
+
+
+Logtalk 3.6.2-rc1
+Copyright (c) 1998-2016 Paulo Moura
+
+% Default lint compilation flags: 
+%   unknown_predicates: warning, undefined_predicates: warning
+%   portability: silent, unknown_entities: warning
+%   missing_directives: warning, redefined_built_ins: silent
+%   singleton_variables: warning, underscore_variables: singletons
+% Default optional features compiler flags:
+%   complements: deny, dynamic_declarations: deny
+%   context_switching_calls: allow, events: deny
+% Other default compilation flags:
+%   report: on, scratch_directory: ./.lgt_tmp/
+%   source_data: on, code_prefix: $, hook: (none)
+%   optimize: off, debug: off, clean: on, reload: changed
+% Backend Prolog compiler flags:
+%   prolog_compiler: []
+%   prolog_loader:   [silent(true),compilation_mode(compact)]
+% Read-only compilation flags (backend Prolog compiler features):
+%   prolog_dialect: yap, modules: supported, threads: unsupported
+%   encoding_directive: full, tabling: unsupported, coinduction: supported
+% 
+% No settings file found in the startup or Logtalk user directories.
+% Using default flag values set in the backend Prolog compiler adapter file.
+% 
+% For Logtalk help, use ?- {help(loader)}. or ?- logtalk_load(help(loader)).
+% 
+% 
+% tests started at 2016/7/1, 19:6:3
+% running tests from object tests
+% file: /home/miguel/Development/BenchEnviro/logtalk3/tests/prolog/predicates/findall_3/tests.lgt
+% iso_findall_3_01: success
+% iso_findall_3_02: success
+% iso_findall_3_03: success
+% iso_findall_3_04: success
+% iso_findall_3_05: success
+% iso_findall_3_06: success
+% iso_findall_3_07: success
+% iso_findall_3_08: success
+% sics_findall_3_09: success
+% eclipse_findall_3_10: success
+% 10 tests: 0 skipped, 10 passed, 0 failed
+% completed tests from object tests
+% no code coverage information collected
+% tests ended at 2016/7/1, 19:6:3
+% 

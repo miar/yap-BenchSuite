@@ -36,8 +36,6 @@ try:
     fout.close()
     query_error = 1
     debug_error = 0
-#    print "oollla"
-
     while (1):
         line = raw_input()
         while (line[0:3] != "***"):
